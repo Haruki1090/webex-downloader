@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+    h2 {
+      color: #0052cc;
+      margin-top: 0;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 15px;
+      background-color: #0052cc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #003d99;
+    }
+    #status {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 4px;
+      background-color: #f5f5f5;
+      min-height: 20px;
+    }
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 10px;
+      padding: 5px;
+    }
+    .success {
+      color: #2e7d32;
+    }
+    .error {
+      color: #c62828;
+    }
+  </style>
+</head>
+<body>
+  <h2>Webex 動画ダウンローダー</h2>
+  <button id="extractBtn">動画URLを抽出</button>
+  <button id="downloadBtn" style="display:none;">ダウンロード</button>
+  <div id="status">Webexの動画ページで「動画URLを抽出」ボタンをクリックしてください。</div>
+  <script src="popup.js"></script>
+</body>
+</html>
