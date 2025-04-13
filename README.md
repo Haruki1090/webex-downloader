@@ -4,7 +4,6 @@
 
 Webex 会議やウェビナーの録画を簡単にダウンロードするための Chrome 拡張機能です。開発者ツールを使わずに、ワンクリックで Webex の動画をダウンロードできます。
 
-![Webex 動画ダウンローダー](screenshots/popup.png)
 
 ### 機能
 
@@ -103,7 +102,6 @@ A: 組織によっては、独自の設定を行っている Webex 環境があ�
 
 A Chrome extension that allows you to easily download recorded videos from Webex meetings and webinars. Download Webex videos with a single click without using developer tools.
 
-![Webex Video Downloader](screenshots/popup.png)
 
 ### Features
 
